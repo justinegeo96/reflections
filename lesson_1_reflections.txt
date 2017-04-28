@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I was able to pinpoint the changes in the new file, so that I can remove that bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Suppose after an update, a bug crept in, so if I have a history of a file, i can easily rollback to a previous working code. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: I can decide what all changes are to be saved into the file manually. If i write some experimental code, i don't want it to get saved into my working code. I want the possibility of an error occurance to be minimal.
+
+    Cons: If i forget to commit for a while, rolling back to previous version wouldn't be easy. Also if some accidental infrastructure failure happens, I might lose some important code, something unlikely to happen while working with Google docs.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A working project will contain numerous files (java, res, etc for android) and while improving a version, multiple files might be changed, thus multiple 
+    changes should be considered for a commit, so that if a rollback to previous version is to be made, a completely working previous version project can be
+    obtained.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides us with every commit ever made, starting with most recent one.
+    git diff shows the change in 2 different versions of the same project.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can confidently experiment with my code, so that if some functionality breaks, i can easily rollback to a previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To create a VCS.
