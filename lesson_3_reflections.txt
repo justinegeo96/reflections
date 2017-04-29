@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  When working on a collaborated project, code can be hosted in a github public repo, to which others can contribute.
