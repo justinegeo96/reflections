@@ -19,3 +19,7 @@ When would you want to make changes in a separate branch rather than directly in
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	Having a copy of the last known state of the remote stored locally is beneficial in the sense that, we can understand whether a change is made later or was it present from very beginning.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	By taking a copy of actual project and working on different files and later merge it, but it would waste much time and space. Also, we wont be able to actually switch between versions, with ease.
