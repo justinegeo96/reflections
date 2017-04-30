@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	fork - cloning within github repos.
 	clone - copying files and file history ( basically the whole repo ) from github to local machine, or within github repos.
 	branches - different path for our program to grow into, so in a later stage, a merging can be done ( Handled in the same repo).
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When working on a new feature, without breaking existing code. We would like to have a production ready code all the time, in the master branch.
